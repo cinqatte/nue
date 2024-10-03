@@ -1,0 +1,75 @@
+
+basic data type:
+bool char int float string
+
+advance data type:
+enum struct
+
+values:
+    bool: true false
+        default: false
+    char: 'A' '\n' '0'
+        default: null
+    int: 4932 4 349043
+        default: 0
+    float: 4.53 54.0 0.4243
+        default: 0.0
+    string: "Hello" "World"
+        default: null
+    undefined:
+        variable does not point to any value
+
+type keyword:
+    void: use as return type of functions (with no return value)
+    bool: use as return type of functions, variable type or variables value
+    char: use as return type of functions, variable type or variables value
+    int: use as return type of functions, variable type or variables value
+    float: use as return type of functions, variable type or variables value
+    string: use as return type of functions, variable type or variables value
+    any: variables value that can change type (apply only to basic types)
+    enum: use as return type of functions, variable type or variables value
+    struct: use as return type of functions, variable type or variables value
+    fun
+type qualifier keyword:
+    var: can be reassigned, function scope, can be defined without setting value, if uninitialised, variable value default
+    let: can be reassigned, block scope, can be defined without setting value, if uninitialised, variable value undefined
+    const: can not be reassigned, block scope, can not be defined without setting value
+
+control keyword:
+    if elif else for while do switch case default break continue return
+    (the control statement/condition as the same as in C)
+
+
+the programming language is functional.
+
+e.g:
+
+var age:int = 20;
+
+print("Hello World");
+
+fun add(x:int. y:int) -> int {
+    return x + y;
+}
+
+
+print("10 + 5 = ", add(10, 5));
+
+
+if (age > 17) {
+    print("adult");
+} else {
+    print("child");
+}
+
+var gender: char = 'M';
+
+switch(ch) {
+    case 'M' {
+        print('Male!')
+    }
+
+    case 'F' {
+        print('Female!');
+    }
+}
